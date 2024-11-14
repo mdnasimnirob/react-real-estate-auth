@@ -1,0 +1,298 @@
+[
+  {
+    "_id": "dsfhj3kdkfh3231",
+    "id": 1,
+    "estate_title": "Spacious Suburban Home",
+    "segment_name": "Single-family home",
+    "description": "White greasy hair neatly coiffured to reveal a long, lively face. Heavy blue eyes, set a-symmetrically within their sockets, watch faithfully over the mines they've defended for so long.White, greasy hair neatly coiffured to reveal a long, lively face. Heavy blue eyes, set a-symmetrically within their sockets, watch faithfully over the mines they've defended for so long. Smooth skin graciously compliments his hair and leaves an intriguing memory of his fortunate destiny.This is the face of Soxart Haggletooth, a true globetrotter among goblins. He stands gracefully among others, despite his sturdy frame.There's something incomprehensible about him, perhaps it's his reputation or perhaps it's simply a feeling of remorse. But nonetheless, people tend to try to get him to marry their off-spring, while trying to subtly look more like him.",
+    "price": "$600,000",
+    "status": "sale",
+    "area": "3,000 sq ft",
+    "location": "Oakwood Drive, Austin, TX",
+    "facilities": [
+      "Living Room",
+      "Swimming Pool",
+      "Kitchen",
+      "Garage",
+      "Backyard"
+    ],
+    "image": "https://i.ibb.co.com/HBSphhC/norwegian-village-with-green-grass-135427-3411.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kdkfh3fdgdre232",
+    "id": 2,
+    "estate_title": "Charming Countryside House",
+    "segment_name": "Single-family home",
+    "description": "A cozy 3-bedroom house surrounded by nature, offering peace and privacy. A muscular, olive skinned woman with vibrant, green eyes, defined cheekbones and a cleft chin. She has fine, dark brown hair, has a large birthmark on her right leg, and she has small hands, and a muscular neck. She is carrying a small snack.real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions.",
+    "price": "$450,000",
+    "status": "sale",
+    "area": "2,500 sq ft",
+    "location": "Pine Lane, Asheville, NC",
+    "facilities": ["Living Room", "Fireplace", "Kitchen", "Garden", "Deck"],
+    "image": "https://i.ibb.co.com/wQ5Hbb6/house-way-life-thai-people-beside-chao-phraya-river-28981-704.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "wsfddfg3225fd3",
+    "id": 3,
+    "estate_title": "Modern Family Home",
+    "segment_name": "Single-family home",
+    "description": "Stylish 5-bedroom home with an open floor plan, ideal for entertaining. A tall and muscular, pasty skinned woman with dull, green eyes, a round chin, a long face, angled lips and thin eyebrows. She is bald, wears natural-coloured lipstick, orange blush and garish eyeshadow,real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. and she has perfectly manicured nails.",
+    "price": "$750,000",
+    "status": "sale",
+    "area": "3,500 sq ft",
+    "location": "Sunset Boulevard, Los Angeles, CA",
+    "facilities": [
+      "Living Room",
+      "Home Theater",
+      "Kitchen",
+      "Garage",
+      "Outdoor Patio"
+    ],
+    "image": "https://i.ibb.co.com/GTQcD7n/image.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfh234fgj3kdkfh3234",
+    "id": 4,
+    "estate_title": "Classic Colonial Home",
+    "segment_name": "Single-family home",
+    "description": "A 4-bedroom colonial-style home with spacious interiors and a well-maintained lawn.Any property used exclusively for business real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. purposes, such as apartment complexes, gas stations, grocery stores, hospitals, hotels, offices, parking facilities, restaurants, shopping centers, stores, and theaters.",
+    "price": "$520,000",
+    "status": "sale",
+    "area": "2,800 sq ft",
+    "location": "Maple Avenue, Hartford, CT",
+    "facilities": [
+      "Living Room",
+      "Kitchen",
+      "Garage",
+      "Backyard",
+      "Home Office"
+    ],
+    "image": "https://i.ibb.co.com/VYpnRBf/full-shot-couple-talking-real-estate-agent-23-2150322096.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kdkfh3434ccf3235",
+    "id": 5,
+    "estate_title": "Modern City Townhouse",
+    "segment_name": "Townhouse",
+    "description": "A sleek, three-story townhouse located in the heart of the city, featuring rooftop views and high-end finishes.the number of new residential construction projects in any given month, released by the U.S. Census Bureau, is a key economic indicator. The report includes building permits, real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. housing starts, and housing completions data",
+    "price": "$720,000",
+    "status": "sale",
+    "area": "2,200 sq ft",
+    "location": "Main Street, Chicago, IL",
+    "facilities": [
+      "Living Room",
+      "Kitchen",
+      "Rooftop Terrace",
+      "Garage",
+      "Home Office"
+    ],
+    "image": "https://i.ibb.co.com/sR8ztLd/modern-high-rise-buildings-1417-8279.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhjqqhtr23kdkfh3236",
+    "id": 6,
+    "estate_title": "Suburban Family Townhouse",
+    "segment_name": "Townhouse",
+    "description": "A spacious 3-bedroom townhouse with a private garden, located in a peaceful suburban neighborhood.Investors and analysts keep a close eye on housing starts because the numbers can provide a general sense ofreal estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. economic direction. Moreover, the types of new housing starts can give clues about how the economy is developing",
+    "price": "$2,800/month",
+    "status": "rent",
+    "area": "1,700 sq ft",
+    "location": "Elmwood Road, Denver, CO",
+    "facilities": [
+      "Living Room",
+      "Kitchen",
+      "Garden",
+      "Garage",
+      "Community Pool"
+    ],
+    "image": "https://i.ibb.co.com/4SzvPQm/aerial-view-apartment-buildings-116348-111.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kddd533dkfh3237",
+    "id": 7,
+    "estate_title": "Luxury Townhouse with Pool",
+    "segment_name": "Townhouse",
+    "description": "High-end townhouse with a private swimming pool and spacious outdoor patio, ideal for entertaining.If housing starts indicate fewer single-family and more multifamily starts, it could signal an impending supply real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. shortage for single-family homes, driving up home prices. The following chart shows 20 years of housing starts",
+    "price": "$1,500,000",
+    "status": "sale",
+    "area": "3,000 sq ft",
+    "location": "Sunset Lane, Miami, FL",
+    "facilities": [
+      "Living Room",
+      "Swimming Pool",
+      "Kitchen",
+      "Garage",
+      "Outdoor Patio"
+    ],
+    "image": "https://i.ibb.co.com/K9ZdsBH/glassclad-skyscrapers-central-mumbai-reflecting-sunset-hues-blue-hour-469504-15.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3ksdsuuydkfh3238",
+    "id": 8,
+    "estate_title": "Stylish Urban Townhouse",
+    "segment_name": "Townhouse",
+    "description": "A trendy, 2-bedroom townhouse with modern amenities, situated close to downtown attractions and nightlife.If housing starts indicate fewer single-family and more multifamily starts, it could signal an impending supply shortage for single-family homes, driving up home prices. The following chart shows 20 years of housing starts this",
+    "price": "$2,200/month",
+    "status": "rent",
+    "area": "1,400 sq ft",
+    "location": "Broadway Street, Austin, TX",
+    "facilities": ["Living Room", "Kitchen", "Balcony", "Garage", "Gym Access"],
+    "image": "https://i.ibb.co.com/WykFVX7/cityscape-dense-skyscrapers-roads-1417-8221.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kdkfh312hgc239",
+    "id": 9,
+    "estate_title": "Luxury Downtown Apartment",
+    "segment_name": "Apartment",
+    "description": "A modern one-bedroom apartment with stunning city views, located in the heart of downtown.real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions.",
+    "price": "$3,000/month",
+    "status": "rent",
+    "area": "950 sq ft",
+    "location": "5th Avenue, New York, NY",
+    "facilities": [
+      "Living Room",
+      "Kitchen",
+      "Balcony",
+      "Gym Access",
+      "Concierge Service"
+    ],
+    "image": "https://i.ibb.co.com/3yHKmzG/home-person-is-listed-1-3-million-1086760-68567.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kdsf43r32dkfh10",
+    "id": 10,
+    "estate_title": "Cozy Suburban Apartment",
+    "segment_name": "Apartment",
+    "description": "A two-bedroom apartment in a quiet neighborhood, perfect for small families.A thin, cream skinned man with unassuming, dark grey eyes, a narrow face, narrow lips, a small nose and large ears. real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. He has wavy, brown hair dip-dyed with shades of grey, seems very hard to read, wears clothes that are form fitting, has toned arms, and slanted shoulders, and he has a small skin tag on his forehead. He is carrying something that doesn't belong to him.",
+    "price": "$1,500/month",
+    "status": "rent",
+    "area": "1,200 sq ft",
+    "location": "Maple Avenue, Seattle, WA",
+    "facilities": [
+      "Living Room",
+      "Kitchen",
+      "Balcony",
+      "Community Pool",
+      "Parking"
+    ],
+    "image": "https://i.ibb.co.com/2YZQ6Zv/parked-cars-line-side-busy-street-118124-267714.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3cxwwkdkfh11",
+    "id": 11,
+    "estate_title": "Studio Apartment with City View",
+    "segment_name": "Apartment",
+    "description": "An elegant studio apartment with a spacious layout and floor-to-ceiling windows.An overweight, honey skinned woman with captivating, dark brown eyes, bony cheeks, small ears and thin lips. She has straight, brown hair, has a squint, wears raspberry lipstick and pinkish blush, and she has a strange burn on her left thigh. She is soaking wet.real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions.",
+    "price": "$1,800/month",
+    "status": "rent",
+    "area": "650 sq ft",
+    "location": "Ocean Avenue, Miami, FL",
+    "facilities": ["Living Room", "Kitchen", "Gym Access", "Concierge Service"],
+    "image": "https://i.ibb.co.com/kMQGfYP/modern-house-garden-251764-379.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kdsdw7879kfh12",
+    "id": 12,
+    "estate_title": "Penthouse Apartment with Ocean View",
+    "segment_name": "Apartment",
+    "description": "A luxurious penthouse with stunning ocean views and high-end finishes throughout.A pear-shaped, dark skinned person with soulful, light brown eyes, small ears and a large nose. They appear feminine, and act feminine. They are bald, have strong hands, muscular legs, and a short torso with chiseled abs and a larger-than-average waist, have multiple tattoos on real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. their stomach and feet, and they have a large cut on their head",
+    "price": "$8,500/month",
+    "status": "rent",
+    "area": "2,500 sq ft",
+    "location": "Coastline Boulevard, Los Angeles, CA",
+    "facilities": [
+      "Living Room",
+      "Kitchen",
+      "Rooftop Pool",
+      "Private Gym",
+      "Concierge Service"
+    ],
+    "image": "https://i.ibb.co.com/Jq0CxnM/3d-electric-car-building-23-2148972401.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dse11sfhj3kdkfh13",
+    "id": 13,
+    "estate_title": "Modern Student Dorm",
+    "segment_name": "Student Housing",
+    "description": "A well-equipped student dorm with study lounges and shared kitchen facilities, located near campus. A muscular, ruddy skinned woman with serene, dark blue eyes, a small nose and a monobrow. She has fine, brown hair, has round hips, a powerful torso with modest breasts, and large hands.real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions.",
+    "price": "$700/month",
+    "status": "rent",
+    "area": "250 sq ft",
+    "location": "University Avenue, Boston, MA",
+    "facilities": [
+      "Study Lounge",
+      "Shared Kitchen",
+      "Laundry Room",
+      "Gym Access",
+      "WiFi"
+    ],
+    "image": "https://i.ibb.co.com/RhW6MMy/exterior-luxury-house.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kdkfhddfad14",
+    "id": 14,
+    "estate_title": "Private Student Apartment",
+    "segment_name": "Student Housing",
+    "description": "A small but cozy private apartment for students, offering privacy while still close to campus.Land refers to the earth's surface down to the center of the earth and upward to the airspace above, including the trees, minerals, and water. The physical characteristics of land include its immobility, indestructibility, and uniqueness, where each parcel of land differs geographically. real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions.",
+    "price": "$1,200/month",
+    "status": "rent",
+    "area": "400 sq ft",
+    "location": "College Lane, Berkeley, CA",
+    "facilities": ["Living Room", "Kitchen", "Laundry Room", "Parking", "WiFi"],
+    "image": "https://i.ibb.co.com/WVJMqr0/homeimage.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3kwew07dkfh15",
+    "id": 15,
+    "estate_title": "Shared Student Suite",
+    "segment_name": "Student Housing",
+    "description": "A spacious suite with shared amenities, ideal for students looking for affordable and social living.Real estate encompasses the land, plus any permanent man-made additions, such as houses and other buildings. Any additions or changes to the land that affects the property's real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. value are called an improvement.",
+    "price": "$850/month",
+    "status": "rent",
+    "area": "300 sq ft",
+    "location": "Campus Road, Ann Arbor, MI",
+    "facilities": [
+      "Shared Kitchen",
+      "Study Lounge",
+      "Laundry Room",
+      "Gym Access",
+      "WiFi"
+    ],
+    "image": "https://i.ibb.co.com/y6XmD0Q/imges.jpg",
+    "button_text": "View Property"
+  },
+  {
+    "_id": "dsfhj3xcdsw5kdkfh16",
+    "id": 16,
+    "estate_title": "Budget-Friendly Student Housing",
+    "segment_name": "Student Housing",
+    "description": "Affordable student housing option with essential facilities, located within walking distance of university.Once land is improved, the total capital and labor used to build the improvement represent a sizable fixed investment. Though a building can be razed, improvements like drainage, electricity, real estate investor is a real estate wholesaler who contracts a home with a seller, then finds an interested party to buy it. Real estate wholesalers generally find and contract distressed properties but don't do any renovations or additions. water and sewer systems tend to be permanent.",
+    "price": "$600/month",
+    "status": "rent",
+    "area": "200 sq ft",
+    "location": "Elm Street, Columbus, OH",
+    "facilities": [
+      "Shared Kitchen",
+      "Study Room",
+      "Laundry Room",
+      "WiFi",
+      "Bike Storage"
+    ],
+    "image": "https://i.ibb.co.com/LrXtNyQ/img.jpg",
+    "button_text": "View Property"
+  }
+]
