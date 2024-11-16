@@ -8,13 +8,12 @@ import DataCard from "./DataCard";
 
 const Home = () => {
     const allData = useLoaderData();
+    console.log(allData);
 
 
 
     return (
         <div>
-
-
             <Navbar></Navbar>
             <div className="mb-7">
                 <Banner></Banner>

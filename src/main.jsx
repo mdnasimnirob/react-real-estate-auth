@@ -9,6 +9,7 @@ import AuthProvider from './providers/AuthProvider';
 
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthProvider>
