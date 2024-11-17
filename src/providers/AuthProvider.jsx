@@ -2,9 +2,13 @@ import { createContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext(null);
 
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, FacebookAuthProvider, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 import app from "../firebase/firebase.config";
+import PropTypes from "prop-types";
+
 const auth = getAuth(app);
+const providerGoogle = new GoogleAuthProvider;
+const proviferFacebook = new FacebookAuthProvider;
 
 const AuthProvider = ({ children }) => {
 
@@ -22,6 +26,14 @@ const AuthProvider = ({ children }) => {
         return signOut(auth);
     }
 
+    const googleLogin = () => {
+        return signInWithPopup(auth, providerGoogle);
+    }
+
+    const facebookLogin = () => {
+        return signInWithPopup(auth, proviferFacebook)
+    }
+
     useEffect(() => {
         const unSubcribe = onAuthStateChanged(auth, currentUser => {
             console.log('user state change', currentUser);
@@ -37,6 +49,9 @@ const AuthProvider = ({ children }) => {
         createUser,
         signIn,
         logOut,
+        googleLogin,
+        facebookLogin,
+
 
     }
     return (
@@ -45,5 +60,9 @@ const AuthProvider = ({ children }) => {
         </AuthContext.Provider>
     );
 };
+
+AuthProvider.propTypes = {
+    children: PropTypes.object.isRequired,
+}
 
 export default AuthProvider;;
