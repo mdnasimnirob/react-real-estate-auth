@@ -2,13 +2,15 @@ import { createContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext(null);
 
-import { createUserWithEmailAndPassword, FacebookAuthProvider, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, FacebookAuthProvider, getAuth, GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, } from "firebase/auth";
 import app from "../firebase/firebase.config";
 import PropTypes from "prop-types";
 
 const auth = getAuth(app);
 const providerGoogle = new GoogleAuthProvider;
 const proviferFacebook = new FacebookAuthProvider;
+const githubProvider = new GithubAuthProvider;
+
 
 const AuthProvider = ({ children }) => {
 
@@ -34,6 +36,10 @@ const AuthProvider = ({ children }) => {
         return signInWithPopup(auth, proviferFacebook)
     }
 
+    const githubLogin = () => {
+        return signInWithPopup(auth, githubProvider)
+    }
+
     useEffect(() => {
         const unSubcribe = onAuthStateChanged(auth, currentUser => {
             console.log('user state change', currentUser);
@@ -51,6 +57,7 @@ const AuthProvider = ({ children }) => {
         logOut,
         googleLogin,
         facebookLogin,
+        githubLogin,
 
 
     }
