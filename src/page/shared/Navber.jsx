@@ -67,7 +67,7 @@ const Navbar = () => {
                 </label>
                 {
                     user ?
-                        <button onClick={handleSignOut} className="btn">Sign Out</button>
+                        <Link to="/login" onClick={handleSignOut} className="btn">Sign Out</Link>
                         :
                         <Link to="/login">
                             <button className="btn">Login</button>

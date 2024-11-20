@@ -11,7 +11,7 @@ const Details = () => {
     const alldata = useLoaderData();
     const { id } = useParams();
     const data = alldata.find((data) => data.id == id);
-    console.log(data);
+    // console.log(data);
 
     const {
 
@@ -32,7 +32,7 @@ const Details = () => {
             <div className=" ">
                 <Navbar></Navbar>
                 <div className="flex items-center w-full justify-center lg:justify-center  dark:text-gray-800 p-6  lg:rounded-3xl  ">
-                    <img src={image} alt="" className="object-contain lg:w-screen rounded-lg " />
+                    <img src={image} alt="" className=" lg:w-[1150px] lg:h-[500px] rounded-lg " />
                 </div>
                 <div className="flex flex-col gap-3 justify-center p-6 text-center lg:text-start">
                     <div className="flex flex-row justify-between">
@@ -62,7 +62,7 @@ const Details = () => {
 
 
                     <div className="flex dropdown-hover  flex-col space-y-4 items-center justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-center">
-                        <button className="btn btn-primary hover:bg-blue-800 px-8 text-lg font-semibold border rounded dark:border-gray-800">{status}</button>
+                        <button className="btn btn-success hover:bg-blue-800 px-8 text-lg font-semibold border rounded dark:border-gray-800">{status}</button>
 
                     </div>
                 </div>

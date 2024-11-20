@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import Navbar from "./shared/Navber";
 import { useContext } from "react";
@@ -10,6 +10,11 @@ import { AuthContext } from "../providers/AuthProvider";
 
 const Login = () => {
     const { signIn, googleLogin, facebookLogin, githubLogin } = useContext(AuthContext)
+
+    const location = useLocation();
+    const navigate = useNavigate();
+    // const from = location.state?.from?.pathname || '/';
+    console.log('location in the login path', location.pathname);
 
     const handleLogin = e => {
         e.preventDefault();
@@ -25,6 +30,9 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 console.log(result.user)
+
+                // nagigate
+                navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
                 console.error(error);
@@ -35,19 +43,51 @@ const Login = () => {
     // google login
 
     const handleGoogle = () => {
-        googleLogin();
+
+        googleLogin()
+            .then(result => {
+                console.log(result.user)
+
+                // nagigate
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch(error => {
+                console.error(error);
+
+            })
+
     };
 
     // facebook login
 
     const handleFacebook = () => {
-        facebookLogin();
+        facebookLogin()
+            .then(result => {
+                console.log(result.user)
+
+                // nagigate
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch(error => {
+                console.error(error);
+
+            })
     };
 
     // twitter Login
 
     const handleGithub = () => {
         githubLogin()
+            .then(result => {
+                console.log(result.user)
+
+                // nagigate
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch(error => {
+                console.error(error);
+
+            })
     }
 
     return (
