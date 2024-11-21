@@ -2,13 +2,22 @@ import { useLoaderData } from "react-router-dom";
 import Navbar from "../shared/Navber";
 import Banner from "./Banner";
 import DataCard from "./DataCard";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 
 
 
 const Home = () => {
+
+    const { loading } = useContext(AuthContext);
     const allData = useLoaderData();
+
+    if (loading) {
+        return <div className="flex items-center justify-center h-screen"><span className="loading loading-dots loading-lg"></span></div>
+    }
     console.log(allData);
+
 
 
 

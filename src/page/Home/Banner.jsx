@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import { Autoplay, Navigation, Pagination, } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,24 +8,40 @@ import 'swiper/css/autoplay';
 
 const Banner = () => {
     return (
-        <div className=''>
+        <div className="w-full">
             <Swiper
-                spaceBetween={50}
+                spaceBetween={30}
                 slidesPerView={1}
                 modules={[Navigation, Pagination, Autoplay]}
                 loop={true}
-                autoplay={{ delay: 2000 }}
+                autoplay={{ delay: 3000 }}
                 pagination={{ clickable: true }}
-                className='rounded-md'
-
+                className="rounded-md"
             >
-                <SwiperSlide><img className='w-full max-h-screen rounded-md' src="https://i.ibb.co.com/TR3fb6L/banner1.jpg" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-screen rounded-md' src="https://i.ibb.co.com/ZKNc2CZ/banner3.jpg" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-full h-screen rounded-md' src="https://i.ibb.co.com/QHFWX4x/banner2.jpg" alt="" /></SwiperSlide>
-
+                {/* Swiper Slides */}
+                <SwiperSlide>
+                    <img
+                        className="w-full h-[50vh] md:h-[60vh] lg:h-[80vh] object-cover rounded-md"
+                        src="https://i.ibb.co/TR3fb6L/banner1.jpg"
+                        alt="Banner 1"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        className="w-full h-[50vh] md:h-[60vh] lg:h-[80vh] object-cover rounded-md"
+                        src="https://i.ibb.co/ZKNc2CZ/banner3.jpg"
+                        alt="Banner 2"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        className="w-full h-[50vh] md:h-[60vh] lg:h-[80vh] object-cover rounded-md"
+                        src="https://i.ibb.co/QHFWX4x/banner2.jpg"
+                        alt="Banner 3"
+                    />
+                </SwiperSlide>
             </Swiper>
-        </div >
-
+        </div>
     );
 };
 
