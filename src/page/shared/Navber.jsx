@@ -61,7 +61,7 @@ const Navbar = () => {
             </div>
 
             {/* Navbar for Mobile */}
-            <div className="navbar-end lg:hidden">
+            <div className="navbar-end  lg:hidden">
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost">
                         <svg
@@ -86,7 +86,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <div className="dropdown dropdown-end">
+                <div className="dropdown hidden dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
                             {user?.photoURL ? (
@@ -96,7 +96,8 @@ const Navbar = () => {
                             )}
                         </div>
                     </label>
-                    {user && (
+
+                    {user ? (
                         <ul
                             tabIndex={0}
                             className="z-10 menu menu-sm dropdown-content flex flex-col-reverse p-2 shadow bg-base-100 rounded-box w-48"
@@ -112,12 +113,28 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         </ul>
+                    ) : (
+                        <ul
+                            tabIndex={0}
+                            className="z-10 menu menu-sm dropdown-content flex flex-col-reverse p-2 shadow bg-base-100 rounded-box w-48"
+                        >
+                            <li>
+                                <button onClick={handleSignOut} className="hover:bg-gray-100">
+                                    Login
+                                </button>
+                            </li>
+                            <li>
+                                <Link to="/profile" className="hover:bg-gray-100">
+                                    Register
+                                </Link>
+                            </li>
+                        </ul>
                     )}
                 </div>
             </div>
 
             {/* Navbar End: Profile & Button */}
-            <div className=" lg:navbar-end lg:flex md:flex sm:flex items-center gap-4">
+            <div className=" lg:navbar-end items-center gap-4">
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
@@ -136,7 +153,8 @@ const Navbar = () => {
 
 
                     </label>
-                    {user && (
+
+                    {user ? (
                         <ul
                             tabIndex={0}
                             className="z-10 menu menu-sm dropdown-content flex flex-col-reverse p-2 shadow bg-base-100 rounded-box w-48"
@@ -152,8 +170,23 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         </ul>
+                    ) : (
+                        <ul
+                            tabIndex={0}
+                            className="z-10 menu menu-sm dropdown-content flex flex-col-reverse p-2 shadow bg-base-100 rounded-box w-48"
+                        >
+                            <li>
+                                <NavLink to='/login' className="hover:bg-gray-100">
+                                    Login
+                                </NavLink>
+                            </li>
+                            <li>
+                                <Link to="/register" className="hover:bg-gray-100">
+                                    Register
+                                </Link>
+                            </li>
+                        </ul>
                     )}
-
 
 
                 </div>
